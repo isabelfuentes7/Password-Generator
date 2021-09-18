@@ -1,0 +1,24 @@
+.body{
+   
+    padding-top: 50px;
+}
+
+.textCenter{
+    text-align:center;
+}
+#password{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 50%;
+}
+#generate{
+    margin-top: 10px;
+    background-color: rgb(102, 99, 99);
+    color: white;
+}
+.jumbotron{
+    color: rgb(102, 99, 99);
+    background-color: rgb(236, 208, 207); 
+    padding-bottom: 25px;
+}

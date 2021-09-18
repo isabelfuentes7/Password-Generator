@@ -1,34 +1,41 @@
-!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Password Generator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css" />
+    <title>Password Generator</title>
+    
   </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Password Generator</h1>
-      </header>
-      <div class="card">
-        <div class="card-header">
+  <body class="body">
+    <div class="container">
+      <div class="jumbotron">
+      
+        <div class="textCenter">    <h1>Password Generator</h1></div>
+        <div >
           <h2>Generate a Password</h2>
         </div>
-        <div class="card-body">
+        <div >
+          <div>
           <textarea
-            readonly
+            readonly=true
             id="password"
             placeholder="Your Secure Password"
             aria-label="Generated Password"
           ></textarea>
         </div>
-        <div class="card-footer">
-          <button id="generate" class="btn">Generate Password</button>
         </div>
+        <div>
+          <button id="generate" class="btn">Generate Password</button>
+        
       </div>
     </div>
+  </div>
     <script src="script.js"></script>
   </body>
 </html>
